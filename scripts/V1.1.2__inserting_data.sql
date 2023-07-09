@@ -1,4 +1,4 @@
-USE SCHEMA CUSTOMER_DB;
+USE SCHEMA CUSTOMER_SCHEMA;
 
 INSERT INTO {{ table_name }} (ID, NAME, EMAIL)
 VALUES (1, 'John Doe', 'john@example.com'),
